@@ -1,5 +1,7 @@
 import Button from "../components/Button";
 import Footer from "../components/Footer.jsx";
+import penyebab from "../assets/photos/Penyebab.png";
+import sawah from "../assets/photos/header.png";
 
 const homePage = () => {
   const handleDataContext = () => {
@@ -13,7 +15,7 @@ const homePage = () => {
     <div className="flex flex-col h-[2300px] w-full bg-[#123332] ">
       <div>
         <img
-          src={"/src/assets/photos/header.png"}
+          src={sawah}
           alt="sawah"
           className="w-full h-[230px]"
         />
@@ -105,7 +107,7 @@ const homePage = () => {
         </div>
         <div className="">
           <img
-            src={"/src/assets/photos/Penyebab.png"}
+            src={penyebab}
             alt="Penyebab"
             className="w-[370px] h-[550px] mr-[230px]"
           />
