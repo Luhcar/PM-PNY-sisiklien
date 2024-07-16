@@ -13,8 +13,8 @@ const homePage = () => {
     <div className="flex flex-col h-[2300px] w-full bg-[#123332] ">
       <div>
         <img
-          src="/src/assets/photos/header.png"
-          alt="image"
+          src={"/src/assets/photos/header.png"}
+          alt="sawah"
           className="w-full h-[230px]"
         />
       </div>
@@ -105,8 +105,8 @@ const homePage = () => {
         </div>
         <div className="">
           <img
-            src="/src/assets/photos/Penyebab.png"
-            alt="image"
+            src={"/src/assets/photos/Penyebab.png"}
+            alt="Penyebab"
             className="w-[370px] h-[550px] mr-[230px]"
           />
         </div>
