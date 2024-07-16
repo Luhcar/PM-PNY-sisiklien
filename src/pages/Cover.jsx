@@ -1,6 +1,9 @@
 import React, { useEffect, useRef } from "react";
 import Button from "../components/Button.jsx";
 import Footer from "../components/Footer.jsx";
+import location from "../assets/photos/location.png";
+import mitra from "../assets/photos/mitra.png";
+import riset from "../assets/photos/riset.png";
 
 const Cover = () => {
   const footerRef = useRef(null);
@@ -57,7 +60,7 @@ const Cover = () => {
         <div className="flex space-x-90">
           <div>
             <img
-              src="/src/assets/photos/location.png"
+              src={location}
               alt="location"
               className="h-[48px] w-[48px] ml-[200px] mt-[29px]"
             />
@@ -71,7 +74,7 @@ const Cover = () => {
           </div>
           <div>
             <img
-              src="/src/assets/photos/mitra.png"
+              src={mitra}
               alt="mitra"
               className="mt-[29px] h-[48px] w-[48px] ml-[20px]"
             />
@@ -85,7 +88,7 @@ const Cover = () => {
           </div>
           <div>
             <img
-              src="/src/assets/photos/riset.png"
+              src={riset}
               alt="riset"
               className="mr-[410px] mt-[29px] ml-[-380px] h-[48px] w-[50px] "
             />
